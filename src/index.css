@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "./components/buttons.css";
+@import "./components/card.css"; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --tw-bg-opacity: 1;
+  /* background-color: rgb(203 213 225); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.textbox {
+  border-radius: 15px;
+  margin: 1.5rem auto;
+  width: 45rem;
+  height: 28rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.navItem {
+  color: #8758FF;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.navBar {
+  padding-left: 2.5rem;
+}
+
+.navBrand{
+  margin-left:15rem;
+  color: #8758FF;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+}
+
+.card {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  margin-top: 0.55rem;
+  width: 25rem;
+}
+
+.myBlogs {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+} */
